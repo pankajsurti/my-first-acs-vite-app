@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'my-first-acs-app'
-          slot-name: 'Production'
+
           package: .
           
